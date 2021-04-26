@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Antonio:wght@400;700&display=swap");
 
+:root {
+  --primary-color: #536dfe;
+}
 body {
   font-family: "Antonio", sans-serif;
 }
@@ -12,4 +15,18 @@ body {
 .container-center {
   max-width: 600px;
   margin: auto;
+}
+
+.primary-link {
+  text-decoration: none;
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
+  padding: 0.5rem 1rem;
+  max-width: 100px;
+  display: inline;
+}
+
+.list-non-bullet {
+  list-style: none;
 }
